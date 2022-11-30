@@ -1,0 +1,14 @@
+main .article-header {
+  text-align: start;
+  border: solid black 1px;
+}
+
+.date {
+  margin: 0;
+}
+
+.important-links {
+  margin-right: 1rem;
+  border: solid blue 1px;
+  margin-top: 1rem 0;
+}
