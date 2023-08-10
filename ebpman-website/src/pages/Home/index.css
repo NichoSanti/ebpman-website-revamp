@@ -1,0 +1,107 @@
+header .important-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-wrapper header {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-wrapper header h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.home-wrapper main .h4 {
+  font-weight: 600;
+}
+
+.home-wrapper .team-members {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper .team-members .team-member-photo {
+  width: 130px;
+}
+
+.home-wrapper .team-members h3 {
+  margin: 0;
+}
+
+.home-wrapper .team-members .team-member {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-wrapper .team-members .h6 {
+  font-weight: 600;
+}
+
+.home-wrapper main p {
+  text-align: justify;
+}
+
+.home-wrapper aside {
+  text-align: left;
+}
+
+.home-wrapper aside a {
+  color: white;
+}
+
+.home-wrapper aside .subscribe-button {
+  margin-bottom: 10px;
+  border-radius: 0px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: grey;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.home-wrapper .testimonials {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.home-wrapper .testimonials .testimonial {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-wrapper .testimonials .company-logo {
+  width: 130px;
+}
+
+.home-wrapper .testimonials h3 {
+  margin: 0;
+}
+
+.home-wrapper .testimonials .h6 {
+  font-weight: 600;
+}
+
+@media (min-width: 1300px) {
+  .home-wrapper {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .home-wrapper header {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+
+  .home-wrapper main {
+    grid-area: 2 / 2 / 2 / 2;
+  }
+}

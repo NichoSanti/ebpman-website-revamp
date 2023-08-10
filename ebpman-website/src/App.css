@@ -1,28 +1,25 @@
-main .section-image {
-  margin-top: 1rem;
-}
-
-main .social-link {
-  margin-top: 0;
-  margin-right: 1rem;
-}
-
 a:hover {
   color: var(--cyan);
   text-decoration: none;
 }
 
-.wrapper {
+.app-wrapper {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.youtube-video {
+@media (min-width: 1300px) {
+  .app-wrapper {
+    max-width: 1300px;
+  }
+}
+
+.youtube-video-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
-  margin-top: 2rem;
+  margin-top: 3px;
   margin-bottom: 2rem;
 }
 

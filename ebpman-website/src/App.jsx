@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import ArticlePage from "../pages/Articles/ArticleTemplate";
-import HomePage from "../pages/Home";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
+import ArticlePage from "./pages/Articles/ArticleTemplate";
+import HomePage from "./pages/Home/index";
+
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 

@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header-wrapper">
       <div className="logo">
         <Link to="/">
-          <a className="h4">Ebpman Tech Reviews Blog</a>
+          <a className="h4">EBPMAN TECH REVIEWS </a>
         </Link>
       </div>
 

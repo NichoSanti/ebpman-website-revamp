@@ -1,0 +1,10 @@
+main .article-header {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-wrapper main h1 {
+  margin-bottom: 0;
+  font-weight: 600;
+}

@@ -3,9 +3,7 @@ export default function ArticleList() {
     <div className="article-list-wrapper">
       <header></header>
       <main>
-        <h1>
-            Latest Articles
-        </h1>
+        <h1></h1>
       </main>
     </div>
   );

@@ -1,22 +1,16 @@
-export default function HomePage() {
+import "./ArticleTemplate.css";
+
+export default function ArticlePage() {
   return (
-    <div className="wrapper">
-      <header></header>
+    <div className="article-wrapper">
       <main>
-        <h1>Ebpman Tech Reviews</h1>
-        <p>
+        <div className="article-header">
+          <h1 className="h2">Latest Product Review</h1>
           <span className="date">31 July 2023</span>
-        </p>
-        <p>
           <div className="important-links">
-            <a className="social-link" href="https://www.youtube.com/@ebpman">
-              YouTube
-            </a>
-            <a className="social-link" href="https://twitter.com/EBPMANReview">
-              Twitter
-            </a>
+            <a className="social-link">YouTube</a>
           </div>
-        </p>
+        </div>
         <p>
           <span className="intro">
             {" "}
